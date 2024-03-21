@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #93e1ee 0%,  #e8e9f7 100%); 
+    min-height: 100vh; /* Ensure gradient covers full viewport height */
+;         /* Reset default body margins */
+  }
+
+  .button-haz {
+    background-color: transparent;
+  }
+  
+.container { 
+    display: flex;         /* Turn the container into a flexbox */
+    align-items: center;   /* Vertically center elements */
+    justify-content: center; /* Optional: Center horizontally */
+    text-align: center;
+    margin-top: 20px;    /* Keep this for text centering */
+    /* ... your other container styles ... */
+  }
+  
+  .container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Stack elements vertically */
+    align-items: center; /* Center elements within the container */
+  }
+  
+  .image-and-chart-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .image-section {
+    display: contents;
+  box-shadow: #93e1ee;}
+
+
+  .cloud-icon {
+    font-size: 2em;  /* Adjust icon size */
+    color: gold;
+    cursor: pointer;
+    background-color: transparent;
+}
+ .get-weather-text {
+    display: none;}
+
+    .cloud-icon:hover .get-weather-text {
+        display: block;
+    }
+
+    .chart-section 
+        {
+            height: 384px;
+            width: 466px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+    
